@@ -9,7 +9,7 @@ jobs:
     # define runner (executable environment)
     runs-on: ubuntu-latest
     steps:
-      - name: Print Greeting
-        run: echo "Hello world!"
-      - name: Print goodbye
-        run: echo "Done - bye" 
+      - name: Print Greeting and goodbye
+        run: |
+            echo "Hello world!"
+            echo "Done - bye" 
